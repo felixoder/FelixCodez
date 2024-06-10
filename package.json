@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "build":"npm install && npm install --prefix client && npm run build --prefix client",
+    "start": "node api/dist/index.js",
+    "dev": "nodemon --watch api --exec ts-node api/index.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^x.x.x",
+    "express": "^x.x.x",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^x.x.x",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^x.x.x",
+    "nodemon": "^x.x.x",
+    "ts-node": "^x.x.x",
+    "typescript": "^x.x.x"
+  }
+}
