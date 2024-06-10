@@ -1,4 +1,3 @@
-import React from 'react';
 import { useSelector } from 'react-redux';
 import { Outlet, Navigate } from 'react-router-dom';
 import { RootState } from '../redux/store'; // Adjust the import based on your store setup
