@@ -12,9 +12,7 @@ const app = express();
 app.use(express.json());
 dotenv.config();
 
-app.get('/', (req: Request, res: Response) => {
-    res.json("Hello world");
-});
+
 
 
 mongoose.connect('mongodb+srv://debayanghosh408:14lSy1LPUAigcxTa@cluster0.lx4nxo6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').then(() => {
