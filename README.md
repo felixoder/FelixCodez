@@ -14,7 +14,7 @@ Built with the Next.js 14 App Router, Postgres, TypeScript, Tailwind & Kinde Aut
 - 🛍️ User can view the page and they can react out in message section.
 - 🌟 Clean, modern UI on top of lucide-react and framer-motion
 - 🛒 Completely secured site
-- 🔑 Authentication using Kinde
+- 🔑 State managed using redux
 - ✉️ Awesome typescript typesafety project
 - ⌨️ 100% written in TypeScript
 - 🎁 ...much more
