@@ -23,12 +23,12 @@ mongoose.connect('mongodb+srv://debayanghosh408:14lSy1LPUAigcxTa@cluster0.lx4nxo
 
 
 
+// Serve static files from the 'client/dist' directory
+app.use(express.static(path.join(__dirname, '..', 'client', 'dist')));
 
-//   app.use(express.static(path.join(__dirname, '..', 'client', 'dist')));
-
-// app.get('*', (req: Request, res: Response) => {
-//   res.sendFile(path.join(__dirname, '..', 'client', 'dist', 'index.html'));
-// });
+app.get('*', (req: Request, res: Response) => {
+  res.sendFile(path.join(__dirname, '..', 'client', 'dist', 'index.html'));
+});
 
 
 app.use('/api/auth', authRoutes);
