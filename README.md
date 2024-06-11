@@ -1,6 +1,6 @@
 # FelixCodez - A Modern Fullstack Portfolio Shop for Users
 
-Built with the Next.js 14 App Router, Postgres, TypeScript, Tailwind & Kinde Auth
+Built with the EXPRESS REACT NODE REDDUX, MongoDb, TypeScript, Tailwind & more
 
 ![Project Image](https://github.com/felixoder/FelixCodez/blob/master/client/public/banner-me.png)
 
