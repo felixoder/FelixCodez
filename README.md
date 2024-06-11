@@ -2,7 +2,7 @@
 
 Built with the Next.js 14 App Router, Postgres, TypeScript, Tailwind & Kinde Auth
 
-![Project Image](https://github.com/felixoder/FelixCodez/tree/master/client/public/banner-me.png)
+![Project Image](https://github.com/felixoder/FelixCodez/blob/master/client/public/banner-me.png)
 
 ## Features
 
