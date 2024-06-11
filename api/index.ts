@@ -24,11 +24,11 @@ mongoose.connect('mongodb+srv://debayanghosh408:14lSy1LPUAigcxTa@cluster0.lx4nxo
 
 
 
-  app.use(express.static(path.join(__dirname, '..', 'client', 'dist')));
+//   app.use(express.static(path.join(__dirname, '..', 'client', 'dist')));
 
-app.get('*', (req: Request, res: Response) => {
-  res.sendFile(path.join(__dirname, '..', 'client', 'dist', 'index.html'));
-});
+// app.get('*', (req: Request, res: Response) => {
+//   res.sendFile(path.join(__dirname, '..', 'client', 'dist', 'index.html'));
+// });
 
 
 app.use('/api/auth', authRoutes);

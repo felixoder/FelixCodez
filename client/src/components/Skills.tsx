@@ -20,10 +20,10 @@ const Skills: React.FC = () => {
           const data = await res.json();
           setSkills(data.skills);
         } else {
-          throw new Error("Failed to fetch Projects");
+          throw new Error("Failed to fetch Skills");
         }
       } catch (err) {
-        console.log("🚀 ~ fetchProjects ~ err:", err);
+        throw new Error("Failed to fetch Skills");
       } finally {
         setLoading(false);
       }
