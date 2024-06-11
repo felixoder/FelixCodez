@@ -205,13 +205,15 @@ const AddProject: React.FC = () => {
         <h2 className="text-2xl font-semibold mb-4">Existing Projects</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {projects.map((project) => (
-             <Link key={project._id} to={`/projects/${project.slug}`} className="block">
+            
             <div key={project._id} className="block">
 
 
              
               <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105 h-full flex flex-col">
+              <Link key={project._id} to={`/projects/${project.slug}`} className="block">
                 <img src={project.banner} alt={project.name_project} className="w-full h-32 object-cover" />
+                </Link>
                 <div className="p-3 flex-grow flex flex-col">
                   <h3 className="text-lg font-semibold mb-1 line-clamp-1">{project.name_project}</h3>
                   <p className="text-gray-600 text-sm mb-2 flex-grow line-clamp-2">{project.details}</p>
@@ -237,7 +239,7 @@ const AddProject: React.FC = () => {
               </div>
               
             </div>
-            </Link>
+           
           ))}
         </div>
       </div>
