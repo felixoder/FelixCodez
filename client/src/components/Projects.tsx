@@ -63,7 +63,7 @@ const Projects: React.FC = () => {
                 <img src={project.banner} alt={project.name_project} className="w-full h-48 object-cover" />
                 <div className="p-6 flex-grow flex flex-col">
                   <h2 className="text-2xl font-semibold mb-2">{project.name_project}</h2>
-                  <p className="text-gray-600 mb-4 flex-grow">{project.details}</p>
+                  <p className="text-gray-600 mb-4 flex-grow truncate">{project.details}</p>
                   <p className="text-gray-600 mb-4">
                     Tech Used ~ <span className="text-green-600 text-sm">{project.techstack}</span>
                   </p>
